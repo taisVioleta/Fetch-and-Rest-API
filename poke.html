@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi</title>
+
+    <link rel="stylesheet" href="/stylepokeapi.css">
+    <script src="/fetchpokeapi.js" async defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class = "container row card-container"></div>
+        <div class = "container row card-container" id= "pokemon-card"></div> 
+        <div class = "container row">
+            <label for="pokemon-name"> Pokemon (Name/ID)</label>
+            <input 
+                  id="pokemon-name"
+                  type="text" 
+                  name="pokemon-name" 
+                  value="" 
+                  placeholder="Lugia"/>
+        </div>
+            <button class= "bprimary" id="btn-prev"> Previous</button>
+            <button class= "brpimary" id="btn-get" > Get Pokemon</button>
+            <button class= "bprimary" id="btn-next"> Next  </button>
+        </div>
+    </div>
+
+  
+</body>
+</html>
